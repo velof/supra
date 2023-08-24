@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<style>
+	/*Set display to none for image*/
+	#image {
+		display: none;
+	 }
+	</style>
+	</head>
+	<body>
+		<div>
+			<h1>MK4 Supra<h1>
+			<h3>click on the button to see image</h3>
+				
+			
+		
+
+<body>
+This is a dream weaver test
+
+<img id="image"
+	 src=
+"https://www.hgkshop.com/cdn/shop/collections/toyota-supra-mkiv-turbotarga-780x405_1400x.jpg?v=1593681769"
+	 alt="GFG image" />
+	</div>
+	<button type="button" onclick="show()" id="btnID">
+		Show Image
+	</button>
+	
+	<script>
+		function show() {
+			/* Access image by id and change the display property to block*/ document.getElementById ('image')
+			.style.display = "block"; document.getElementById ('btnID')
+			.style.display = "none";
+			
+		}
+	</script>
+</body>
+</html>
